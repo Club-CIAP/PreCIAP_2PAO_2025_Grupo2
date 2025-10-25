@@ -63,7 +63,16 @@ target/
 .python-version
 
 # exclude data from source control by default
-/data/
+data/interim
+data/processed
+
+models/
 
 # ipynb checkpoints
 .ipynb_checkpoints
+
+# Entornos y logs
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+*.log
